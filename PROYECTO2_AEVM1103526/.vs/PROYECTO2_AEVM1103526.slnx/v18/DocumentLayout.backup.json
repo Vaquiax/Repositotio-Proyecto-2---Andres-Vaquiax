@@ -14,12 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +24,7 @@
               "RelativeDocumentMoniker": "PROYECTO2_AEVM1103526\\Program.cs",
               "ToolTip": "C:\\Users\\and92\\source\\repos\\PROYECTO2_AEVM1103526\\PROYECTO2_AEVM1103526\\Program.cs",
               "RelativeToolTip": "PROYECTO2_AEVM1103526\\Program.cs",
-              "ViewState": "AgIAAOoCAAAAAAAAAAAAADADAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAGIEAAAAAAAAAAAqwJQFAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T21:51:59.959Z",
               "EditorCaption": ""

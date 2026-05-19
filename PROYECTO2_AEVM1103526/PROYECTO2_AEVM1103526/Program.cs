@@ -177,14 +177,17 @@ namespace PROYECTO2_AEVM1103526
 
                 int valMenuPrincipal = 0;
                 int opcionMenuInt = 0;
-
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 while (valMenuPrincipal == 0)
                 {
                 Console.WriteLine($"""
                     Dinero en caja: Q.{dineroEnCaja}
                     """);
                 Console.WriteLine($"""Mes ({mesesSimulados - mesesRestantes + 1}/{mesesSimulados}) """);
-                    Console.WriteLine("""
+
+                Console.ForegroundColor= ConsoleColor.White;
+                    
+                    Console.Write("""
                 ==============GESTIÓN DE GRANJA==============
                 1. Comprar semillas
                 2. Sembrar
@@ -192,6 +195,7 @@ namespace PROYECTO2_AEVM1103526
                 4. Avanzar mes
                 5. Salir
                 =============================================
+                Ingrese el número de la opción deseada: 
                 """);
 
                     string opcionMenu = Console.ReadLine();
@@ -1418,7 +1422,7 @@ namespace PROYECTO2_AEVM1103526
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.WriteLine($"""
                             Parcela: fila {i + 1} y columna {j + 1}.
-                            Meses restantes para cosechar: {mesesCrecimiento[i, j]}.
+                            Meses restantes para cosechar: {mesesCrecimiento[i, j]-1}.
                             """);
                         Console.ForegroundColor = ConsoleColor.White;
                         mesesCrecimiento[i, j] -= 1;
